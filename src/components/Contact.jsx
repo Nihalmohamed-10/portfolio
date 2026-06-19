@@ -61,9 +61,9 @@ export default function Contact() {
           className="flex flex-wrap justify-center gap-3 mt-8"
         >
           {[
-            { icon: Mail, label: "hello@example.com", href: "mailto:hello@example.com" },
-            { icon: GitFork, label: "GitHub", href: "https://github.com" },
-            { icon: Globe, label: "LinkedIn", href: "https://linkedin.com" },
+            { icon: Mail, label: "hello@example.com", href: "mailto:nihalmohamedmkd@gmail.com" },
+            { icon: GitFork, label: "GitHub", href: "https://github.com/Nihalmohamed-10" },
+            { icon: Globe, label: "LinkedIn", href: "https://www.linkedin.com/in/nihal-mohamed-39a5b5220/" },
           ].map(({ icon: Icon, label, href }) => (
             <motion.a
               key={label}

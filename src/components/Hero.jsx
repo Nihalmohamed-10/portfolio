@@ -58,7 +58,7 @@ export default function Hero() {
           className="flex items-center justify-center gap-3">
           {[{ icon: GitFork, href: "https://github.com/Nihalmohamed-10/", label: "GitHub" },
             { icon: Globe, href: "https://www.linkedin.com/in/nihal-mohamed-39a5b5220/", label: "LinkedIn" },
-            { icon: Mail, href: "mailto:hello@example.com", label: "Email" }].map(({ icon: Icon, href, label }) => (
+            { icon: Mail, href: "mailto:nihalmohamedmkd@gmail.com", label: "Email" }].map(({ icon: Icon, href, label }) => (
             <motion.a key={label} whileHover={{ y: -4, scale: 1.1 }} href={href} target="_blank" rel="noreferrer" aria-label={label}
               className="w-11 h-11 rounded-xl glass flex items-center justify-center text-slate-400 hover:text-white hover:border-indigo-500/40 transition-all">
               <Icon size={18} />
